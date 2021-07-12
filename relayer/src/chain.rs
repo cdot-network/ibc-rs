@@ -41,6 +41,7 @@ use crate::light_client::LightClient;
 use crate::{config::ChainConfig, event::monitor::EventReceiver};
 
 pub(crate) mod cosmos;
+pub(crate) mod substrate;
 pub mod counterparty;
 pub mod handle;
 pub mod runtime;
